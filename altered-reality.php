@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Altered Reality
  * Plugin URI:  https://sortabrilliant.com/alteredreality
- * Description:
+ * Description: Transform your images into something new with filters.
  * Author:      sorta brilliant
  * Author URI:  https://sortabrilliant.com/
  * Version:     1.0.0

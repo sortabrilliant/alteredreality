@@ -1,7 +1,7 @@
 {
 	"name": "sorta-brilliant-altered-reality",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Transform your images into something new with filters.",
 	"author": "sorta brilliant",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
@@ -11,7 +11,7 @@
 	"main": "src/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sortabrilliant/"
+		"url": "git+https://github.com/sortabrilliant/alteredreality"
 	},
 	"scripts": {
 		"build": "wp-scripts build",
