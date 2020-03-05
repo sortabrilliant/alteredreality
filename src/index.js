@@ -1,7 +1,27 @@
 /**
  * WordPress dependencies
  */
+import { addFilter } from '@wordpress/hooks';
 import { registerBlockStyle } from '@wordpress/blocks';
+
+/**
+ * This ticks WP to render block with actual data.
+ */
+function removeImageBlockExample( settings, name ) {
+	if ( name !== 'core/image' ) {
+		return settings;
+	}
+
+	settings.example = null;
+
+	return settings;
+}
+
+addFilter(
+	'blocks.registerBlockType',
+	'sortabrilliant/altered-reality',
+	removeImageBlockExample
+);
 
 registerBlockStyle( 'core/image', [
 	{
