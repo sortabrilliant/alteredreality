@@ -34,6 +34,8 @@ function editor_script() {
 		$asset_file['dependencies'],
 		$asset_file['version']
 	);
+
+	add_action( 'in_admin_header', __NAMESPACE__ . '\\render_filters' );
 }
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\\editor_script' );
 
@@ -51,3 +53,16 @@ function block_styles() {
 	);
 }
 add_action( 'enqueue_block_assets', __NAMESPACE__ . '\\block_styles' );
+
+/**
+ * Render SVG filters, also called in Block Editor.
+ * Not the best solution, but only option for now.
+ *
+ * @see ::editor_script()
+ *
+ * @return void
+ */
+function render_filters() {
+	require __DIR__ . '/parts/filters.php';
+}
+add_action( 'wp_footer', __NAMESPACE__ . '\\render_filters' );

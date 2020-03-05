@@ -10,6 +10,18 @@ registerBlockStyle( 'core/image', [
 		isDefault: true,
 	},
 	{
+		name: 'vhs',
+		label: 'VHS',
+	},
+	{
+		name: 'glitch',
+		label: 'Glitch',
+	},
+	{
+		name: 'acidtrip',
+		label: 'Acid Trip',
+	},
+	{
 		name: '_1977',
 		label: '1977',
 	},

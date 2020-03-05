@@ -12,3 +12,17 @@ $filters: (
 		@extend %#{$filter};
 	}
 }
+
+.is-style-vhs img {
+	-webkit-filter: url(#vhs);
+	filter: url(#vhs);
+}
+
+.is-style-acidtrip img {
+	-webkit-filter: url(#acidtrip);
+	filter: url(#acidtrip);
+}
+.is-style-glitch img {
+	-webkit-filter: url(#glitch);
+	filter: url(#glitch);
+}
