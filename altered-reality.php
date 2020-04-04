@@ -5,7 +5,7 @@
  * Description: Transform your images into something new with filters.
  * Author:      sorta brilliant
  * Author URI:  https://sortabrilliant.com/
- * Version:     1.0.0
+ * Version:     1.0.1
  * License:     GPL-2.0-or-later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
@@ -14,7 +14,7 @@
 
 namespace SortaBrilliant\AlteredReality;
 
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 
 /**
  * Enqueue block editor assets.
