@@ -1,13 +1,15 @@
 <?php
 /**
- * Plugin Name: Altered Reality
- * Plugin URI:  https://sortabrilliant.com/alteredreality
- * Description: Transform your images into something new with filters.
- * Author:      sorta brilliant
- * Author URI:  https://sortabrilliant.com/
- * Version:     1.0.1
- * License:     GPL-2.0-or-later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * Plugin Name:       Altered Reality
+ * Plugin URI:        https://sortabrilliant.com/alteredreality
+ * Description:       Transform your images into something new with filters.
+ * Version:           1.0.2
+ * Requires at least: 5.0
+ * Requires PHP:      5.6
+ * Author:            sorta brilliant
+ * Author URI:        https://sortabrilliant.com/
+ * License:           GPL-2.0-or-later
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  *
  * @package altered-reality
  */
